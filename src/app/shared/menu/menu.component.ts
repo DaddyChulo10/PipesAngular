@@ -36,9 +36,10 @@ export class MenuComponent implements OnInit {
               routerLink: 'no-comunes',
             }
           ]
-        },{
+        }, {
           label: 'Pipes personalizados',
           icon: 'pi pi-fw pi-cog',
+          routerLink: 'ordenar',
         }
       ];
   }
